@@ -1,0 +1,14 @@
+---
+Name: eform-elterngeld-bremen
+---
+# All documents are page ranges of ONE PDF in CMS slot PDFFile (the file repaired with bin/repair-pdf.py).
+# Signature stamps in mm from the top-left corner of the given page of the template. Override per document, e.g.:
+#
+# Kalakotra\EFormElterngeldBremen\Model\Submission:
+#   documents:
+#     antrag:
+#       stamps:
+#         main: { page: 23, x: 23.0, y: 124.6, width: 36.0 }
+#   replacement_font: 'fonts/LiberationSans-Regular.ttf'   # '' = disabled (then values are transliterated to ASCII)
+#
+# PDFMultiFormPage.SignaturePositionX/Y override the "main" stamp of the Antrag.
